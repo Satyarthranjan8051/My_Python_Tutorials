@@ -64,4 +64,52 @@ def secant_method(f, x0, x1, tol=1e-5, max_iter=100):
         x0, x1 = x1, x_new
 
     raise ValueError(f"Root not found within {max_iter} iterations.")
+```
 
+
+- **Input**: The function `f`, initial guesses x0 and x1, tolerance `tol`, and max iterations `max_iter`.
+- **Logic**: It computes the new approximation based on the secant line formula and checks if the tolerance condition is satisfied.
+- **Output**: The approximate root of the function.
+
+#### Example:
+
+```python
+if __name__ == "__main__":
+    def f(x):
+        return x**2 - 2
+    x0 = 0
+    x1 = 2
+    root = secant_method(f, x0, x1)
+    print("Root is approximately:", root)
+```
+
+Output:
+```csharp
+Root is approximately: 1.4142135626888697
+```
+---
+
+## 🏃‍♂️ How to Run
+
+1. Clone this repository:
+    ```bash
+    git clone <repo-link>
+    ```
+
+2. Navigate to the project directory:
+    ```bash
+    cd <directory>
+    ```
+
+3. Run the Python script:
+    ```bash
+    python secant_finding.py
+    ```
+
+---
+
+## ⚡ Conclusion
+
+In this project, we implemented the Secant Method for root finding in Python. The method efficiently finds roots of non-linear equations without needing the derivative, making it a good alternative to Newton-Raphson in certain scenarios.
+
+Feel free to experiment with different functions to explore the behavior of the Secant Method in root finding!
