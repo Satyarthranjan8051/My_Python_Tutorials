@@ -135,17 +135,17 @@ Newton-Raphson Method Root: -0.7650845376740406
 
 1. Clone this repository:
     ```bash
-    git clone <repo-link>
+    git clone https://github.com/Satyarthranjan8051/Numeric-Method-and-Optimization-Using-Python.git
     ```
 
 2. Navigate to the project directory:
     ```bash
-    cd <directory>
+    cd Assignment 1.3
     ```
 
 3. Run the Python script:
     ```bash
-    python root_finding.py
+    Root finding method(NR, Bisection).ipynb
     ```
 
 ---
