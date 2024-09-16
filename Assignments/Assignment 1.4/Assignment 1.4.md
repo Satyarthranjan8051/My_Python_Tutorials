@@ -93,17 +93,17 @@ Root is approximately: 1.4142135626888697
 
 1. Clone this repository:
     ```bash
-    git clone <repo-link>
+    git clone https://github.com/Satyarthranjan8051/Numeric-Method-and-Optimization-Using-Python.git
     ```
 
 2. Navigate to the project directory:
     ```bash
-    cd <directory>
+    cd Assignment 1.4
     ```
 
 3. Run the Python script:
     ```bash
-    python secant_finding.py
+    Root finding method(Secant).ipynb
     ```
 
 ---
